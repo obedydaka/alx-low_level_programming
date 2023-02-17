@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Print the size of various types on the compunter it is compiled on. 
+ *
  * Return: Always 0 (Success)
  */
 
