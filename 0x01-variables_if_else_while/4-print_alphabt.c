@@ -19,7 +19,7 @@ int main(void)
 
 	for (llt = 'a'; llt <= 'z'; llt++)
 	{
-		while (llt != e && llt != q)
+		if (llt != e && llt != q)
 		{
 			putchar(llt);
 		}
