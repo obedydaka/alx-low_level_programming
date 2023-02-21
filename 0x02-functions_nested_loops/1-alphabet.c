@@ -2,10 +2,11 @@
 #include "main.h"
 
 /**
- * print_alphabet
+ * print_alphabet - Check description below
  * Description: Printing alphabetical order in lowercase fallowed by a new line
- * Return: 0 (Success)
+ * Return: Nothing
  */
+
 void print_alphabet(void)
 {
 	char i;
