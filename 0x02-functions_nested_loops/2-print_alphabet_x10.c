@@ -1,8 +1,9 @@
 #include "main.h"
 
 /**
- * print_alphabet - Check description below.
- * Description: Printing alphabet in lowercase fallowed by a new line.
+ * print_alphabet - Check description below
+ * Description: Printing alphabet in lowercase
+ * 10 times fallowed by a new line
  * Return: Nothing.
  */
 
