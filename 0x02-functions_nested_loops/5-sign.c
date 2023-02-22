@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
- * _sign - check main
+ * print_sign - check main
  * @n: an input character
  * Description: This program checks whether
  * the number is negative or positive.
- * Return: 1 if number is positive, 0 is number is 0 
- * or -1 if number is negative
+ * Return: 1 if number is positive, 0 if 0 or -1 if negative
  */
 
 int print_sign(int n)
