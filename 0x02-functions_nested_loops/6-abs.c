@@ -3,7 +3,7 @@
 /**
  *_abs - Check main
  * @r: Input interger number
- * Description: This function returns absolute value of 
+ * Description: This function returns absolute value of
  * any given number
  * Return: Absolute value of the number r
  */

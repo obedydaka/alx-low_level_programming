@@ -9,7 +9,7 @@
  * or -1 if number is negative
  */
 
-void print_sign(int n)
+int print_sign(int n)
 {
 	int number;
 

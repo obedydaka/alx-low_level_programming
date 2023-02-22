@@ -11,6 +11,7 @@
 int add(int a, int b)
 {
 	int result;
+
 	result = 0;
 
 	result += (a + b);

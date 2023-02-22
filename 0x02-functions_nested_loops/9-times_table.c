@@ -2,7 +2,7 @@
 
 /**
  * times_table - Check main
- * Description: This promgram prints a 9x9 times table 
+ * Description: This promgram prints a 9x9 times table
  * starting from 0
  * Return: Nothing.
  */
@@ -27,10 +27,8 @@ void times_table(void)
 				}
 				_putchar(n + '0');
 
-				if (b == 9)
-				{
+				if (j == 9)
 					continue;
-				}
 				_putchar(',');
 				_putchar(' ');
 			}
@@ -38,10 +36,8 @@ void times_table(void)
 			{
 				_putchar((n / 10) + '0');
 				_putchar((n % 10) + '0');
-				if (b == 9)
-				{
+				if (j == 9)
 					continue;
-				}
 				_putchar(',');
 				_putchar(' ');
 			}
