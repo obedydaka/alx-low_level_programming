@@ -8,14 +8,14 @@
 
 int _isdigit(int c)
 {
-	char i;
+	int i;
 	int isdigit;
 
 	isdigit = 0;
 
-	for (i = '0'; i < '10'; i++)
+	for (i = 0; i < 10; i++)
 	{
-		if (c == i)
+		if (i == c)
 		{
 			isdigit = 1;
 			break;
