@@ -8,7 +8,7 @@
 
 int _isdigit(int c)
 {
-	int i;
+	char i;
 	int isdigit;
 
 	isdigit = 0;
