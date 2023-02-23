@@ -12,8 +12,9 @@ int _isdigit(int c)
 	int isdigit;
 
 	isdigit = 0;
+	i = '0';
 
-	for (i = '0'; i < '10'; i++)
+	for (; i <= '9'; i++)
 	{
 		if (i == c)
 		{
