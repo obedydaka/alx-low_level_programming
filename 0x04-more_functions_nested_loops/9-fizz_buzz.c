@@ -1,5 +1,6 @@
-#include <main.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <main.h>
 
 /**
  * main - Entry point
@@ -12,7 +13,7 @@
 int main(void)
 {
 	int i;
-	
+
 	for (i = 0; i <= 100; i++)
 	{
 		if (i != 0)
