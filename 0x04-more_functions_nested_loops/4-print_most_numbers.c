@@ -8,7 +8,9 @@
 
 void print_most_numbers(void)
 {
-	int i = '0';
+	int i;
+
+	i = '0';
 
 	for (; i <= '9'; i++)
 	{
@@ -16,7 +18,7 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		_putchar(i)
+		_putchar(i);
 	}
 	_putchar('\n');
 }
