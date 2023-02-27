@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
  * rev_string - This function reverses a string followed
@@ -9,17 +9,21 @@
 
 void rev_string(char *s)
 {
-	int len = 0, i = 0;
-	char aux;
+	int length;
+	int i;
+	char bk
 
-	while (s[len] != '\0')
+	length = 0;
+	i = 0;
+
+	while (s[length] != '\0')
 	{
-		len++;
+		length++;
 	}
-	while (i < len--)
+	while (i < length--)
 	{
-		aux = s[i];
-		s[i++] = s[len];
-		s[len] = aux;
+		bk = s[i];
+		s[i++] = s[length];
+		s[length] = bk;
 	}
 }

@@ -1,6 +1,7 @@
-#include "main.c"
+#include "main.h"
 
-/** void swap_int - This function swaps the input of 
+/** 
+ * void swap_int - This function swaps the input of 
  * two intergers pointers
  * @a: First interger pointer input
  * @b: Second interger pointer input
