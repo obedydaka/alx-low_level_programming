@@ -12,9 +12,6 @@
 void print_array(int *a, int n)
 {
 	int i;
-	int length;
-
-	length = 0;
 
 	for (i = 0; i <= n; i++)
 	{
