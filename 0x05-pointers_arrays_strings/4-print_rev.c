@@ -11,7 +11,7 @@
 
 void print_rev(char *s)
 {
-	str_rev(s);
+	strrev(s);
 	printf("%s\n", s);
 	return (0);
 }
