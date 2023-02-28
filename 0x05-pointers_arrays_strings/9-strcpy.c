@@ -4,7 +4,7 @@
  * _strcpy - This function copies a string from 'src' to 'dest'
  * and followed by a new line
  * @dest: The destinition string
- * @scr: The source string
+ * @src: The source string
  * Return: character string
  */
 

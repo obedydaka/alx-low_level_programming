@@ -8,7 +8,7 @@
  * Return: Integer as Password
  */
 
-int main
+int main(void)
 {
 	int password;
 
@@ -16,8 +16,8 @@ int main
 
 	for (int index = 0; index < 6; index++)
 	{
-		password = rand();
+		printf("%d", rand());
 	}
-	return (password);
+	return(0);
 }
 

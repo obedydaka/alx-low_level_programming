@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -11,6 +12,7 @@
 void print_array(int *a, int n)
 {
 	int i;
+	int length;
 
 	length = 0;
 
@@ -19,5 +21,5 @@ void print_array(int *a, int n)
 		printf("%d, ", a[i]);
 		i++;
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
