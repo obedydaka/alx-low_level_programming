@@ -5,6 +5,7 @@
 /**
  * print_rev - This function prints a string in reverse
  * followed by a new line
+ * @s: Input string
  * Return: Nothing
  */
 
