@@ -3,8 +3,7 @@
 #include <string.h>
 
 /**
- * Main - Entry point
- * Description: This program prints a string in reverse
+ * print_rev - This function prints a string in reverse
  * followed by a new line
  * Return: Nothing
  */
