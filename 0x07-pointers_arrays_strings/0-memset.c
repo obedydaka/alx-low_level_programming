@@ -10,7 +10,13 @@
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	_memset(s, b, n);
+	char *backup;
 
-	return (s);
+	backup = s;
+
+	while (n--)
+	{
+		*s++ = b;
+	}
+	return (backup);
 }
