@@ -23,7 +23,7 @@ void print_diagsums(int *a, int size)
 
 	for (; i < max; i = i + size - 1)
 	{
-		sum1 = sum2 + a[i];
+		sum1 = sum1 + a[i];
 	}
 	for (i = size - 1; i < max - 1; i = i + size - 1)
 	{
