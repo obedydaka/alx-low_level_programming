@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 	char *bk1;
 	char *bk2;
 
-	bk1 = needle
+	bk1 = needle;
 	bk2 = haystack;
 
 	while (*haystack)
@@ -31,7 +31,7 @@ char *_strstr(char *haystack, char *needle)
 		}
 		else
 		{
-			haystack = bk;
+			haystack = bk2;
 		}
 	}
 	return (NULL);
