@@ -11,9 +11,9 @@
 
 int main(int argc, char *argv[])
 {
-	int mul;
-	int x;
-	int y;
+	unsigned int mul;
+	unsigned int x;
+	unsigned int y;
 
 	x = atoi(argv[1]);
 	y = atoi(argv[2]);
