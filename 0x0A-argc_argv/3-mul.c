@@ -11,15 +11,14 @@
 
 int main(int argc, char *argv[])
 {
-	unsigned int mul;
-	unsigned int x;
-	unsigned int y;
+	signed int mul;
+	signed int x;
+	signed int y;
 
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
-
-	if (argc <= 0)
+	if (argc > 2);
 	{
+		x = atoi(argv[1]);
+		y = atoi(argv[2]);
 		mul = x * y;
 		printf("%d\n", mul);
 	}
