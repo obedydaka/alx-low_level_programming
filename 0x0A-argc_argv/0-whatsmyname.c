@@ -3,15 +3,18 @@
 /**
  * main - Entry point
  * Description: This program prints it's name
- * return: 0 (SUCCESS)
+ * @argc: Arguments count
+ * @argv: Argument array
+ * Return: return 0 (SUCCESS)
  */
 
-int main(int argc, char* agrv[])
+int main(int argc, char *argv[])
 {
 	int i;
+
 	for (i = 0; i < argc; i++)
 	{
 		printf("%s\n", argv[i]);
 	}
-	return(0);
+	return (0);
 }
