@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	signed int x;
 	signed int y;
 
-	if (argc ==0)
+	if (argc == 0)
 	{
 		printf("Error");
 	}
@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 	{
 		printf("Error");
 	}
-	else if
+	else
 	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
