@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 
 	if (argc != 3)
 	{
-		if (!(x <= 0 && y <= 0))
+		if (!(x >= 0 && y >= 0))
 		{
 			printf("Error");
 			return (1);
