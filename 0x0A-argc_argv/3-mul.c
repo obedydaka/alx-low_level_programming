@@ -15,19 +15,21 @@ int main(int argc, char *argv[])
 	signed int x;
 	signed int y;
 
-	if (argc < 2)
+	if (argc ==0)
 	{
 		printf("Error");
-		return (1);
 	}
-	else
+	else if (argc < 2)
+	{
+		printf("Error");
+	}
+	else if
 	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
 
 		mul = x * y;
 		printf("%d\n", mul);
-
-		return (0);
 	}
+	return (0);
 }

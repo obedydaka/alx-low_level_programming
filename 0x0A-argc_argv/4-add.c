@@ -17,7 +17,7 @@ int main(int argc, char *argv[])
 
 	add = 0;
 
-	if (argc != 0)
+	if (argc > 2)
 	{
 		for (i = 1; i <= argc; i++)
 		{
