@@ -15,17 +15,17 @@ int main(int argc, char *argv[])
 	signed int x;
 	signed int y;
 
-	if (argc < 2)
+	if (argc != 3)
+	{
+		printf("Error");
+	}
+	else
 	{
 		x = atoi(argv[1]);
 		y = atoi(argv[2]);
 
 		mul = x * y;
 		printf("%d\n", mul);
-	}
-	else
-	{
-		printf("Error");
 	}
 	return (0);
 }
