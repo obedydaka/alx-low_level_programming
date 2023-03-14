@@ -23,13 +23,13 @@ int main(int argc, char *argv[])
 		if (!(x <= 0 && y <= 0))
 		{
 			printf("Error");
-			return (1)
+			return (1);
 		}
 		else
 		{
 			add = x + y;
 			printf("%d\n", add);
-			return (0)
+			return (0);
 		}
 	}
 }
