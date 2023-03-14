@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	signed int x;
 	signed int y;
 
-	if (argc != 3)
+	if (argc > 2)
 	{
 		printf("Error");
 		return (1);
