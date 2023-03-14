@@ -11,24 +11,25 @@
 
 int main(int argc, char *argv[])
 {
-	int x;
-	int y;
 	int add;
+	int i;
 
-	x = atoi(argv[1]);
-	y = atoi(argv[2]);
+	add = 0;
 
 	if (argc > 2)
 	{
-		if (!((x >= 0 && x <= 9) && (y >= 0 && y <= 9)))
+		for (i = 0; i <= argc; i++)
 		{
-			printf("Error");
+			if (!(i >= 0))
+			{
+				printf("Error");
+			}
+			else
+			{
+				add += atoi(argv[i]);
+			}
 		}
-		else
-		{
-			add = x + y;
-			printf("%d\n", add);
-		}
+		printf("%d\n", add);
 	}
 	else
 	{
