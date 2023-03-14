@@ -6,36 +6,26 @@
  * Description: This program prints the addition of two numbers
  * @argc: Arguments count
  * @argv: Argument array
- * Return: return 0 (SUCCESS), 1 (FAIL)
+ * Return: return 0 (SUCCESS)
  */
 
 int main(int argc, char *argv[])
 {
-	int add;
-	int x;
+	int sum;
 	int i;
 
-	add = 0;
-
-	if (argc > 2)
+	sum = 0;
+	if (argc < 1)
 	{
-		for (i = 1; i <= argc; i++)
-		{
-			if (i > 'a' && i < 'z')
-			{
-				printf("Error");
-			}
-			else
-			{
-				x = atoi(argv[i]);
-				add += x;
-			}
-		}
-		printf("%d\n", add);
+		printf("Error\n");
 	}
 	else
-	{
-		printf("Error");
+	{	
+		for (i = 1; i < argc; i++)
+		{
+			sum += atoi(argv[i]);
+		}
+		printf("%d\n", sum);
 	}
-	return (0);
+	return 0;
 }
