@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		{
 			add = x + y;
 			printf("%d\n", add);
-			return (0);
 		}
 	}
+	return (0);
 }
