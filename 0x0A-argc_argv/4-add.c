@@ -12,6 +12,7 @@
 int main(int argc, char *argv[])
 {
 	int add;
+	int x;
 	int i;
 
 	add = 0;
@@ -20,13 +21,14 @@ int main(int argc, char *argv[])
 	{
 		for (i = 0; i <= argc; i++)
 		{
-			if (!(i >= 0))
+			if ((i > 'a' && i < 'z') && (i > 'A' && i < 'Z'))
 			{
 				printf("Error");
 			}
 			else
 			{
-				add += atoi(argv[i]);
+				x = atoi(argv[i]);
+				add += x;
 			}
 		}
 		printf("%d\n", add);
