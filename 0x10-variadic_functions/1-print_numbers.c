@@ -9,6 +9,7 @@
  * @...: Other parameters
  * Return: The of all parameters
  */
+
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
 	va_list ap;
