@@ -1,1 +1,0 @@
-Thid directory id dynamic libraries on how how it works, how to create one, how to use one. We will also look at thw environment varriable and how to use them, and the difference between static and shared libraries.
