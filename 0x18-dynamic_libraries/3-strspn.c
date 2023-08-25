@@ -6,6 +6,7 @@
  * @accept: an input character with to locate into string s
  * Return: returns pointer to c position
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	int count = 0, flag;

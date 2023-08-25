@@ -18,4 +18,4 @@ $(find . -name "2-strchr.c"),\
 $(find . -name "3-strspn.c"),\
 $(find . -name "4-strpbrk.c"),\
 $(find . -name "5-strstr.c"),\
-} ~/alx-low_level_programming/0x18-dynamic_libraries
+} ~/holbertonschool-low_level_programming/0x18-dynamic_libraries

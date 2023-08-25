@@ -7,6 +7,7 @@
  * letter, lowercase or uppercase.
  * Return: 1 or 0 in otherwise.
  */
+
 int _isalpha(int c)
 {
 	char lower, upper;

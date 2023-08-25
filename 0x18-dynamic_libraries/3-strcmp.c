@@ -6,6 +6,7 @@
  * @s2: an input string
  * Return: The difference s1 - s2
  */
+
 int _strcmp(char *s1, char *s2)
 {
 	while (*s1 && *s2)
